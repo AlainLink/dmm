@@ -30,6 +30,11 @@
             "rutas" : "formulario",
             "icono" : "map",
             "texto" : "Formulario"
+        },
+        {
+            "rutas" : "apipage",
+            "icono" : "car_rental",
+            "texto" : "ApiPage"
         }
     ]
 }

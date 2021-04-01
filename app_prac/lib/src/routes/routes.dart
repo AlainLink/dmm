@@ -1,3 +1,4 @@
+import 'package:app_prac/src/pages/api_page.dart';
 import 'package:app_prac/src/pages/billetera_page.dart';
 import 'package:app_prac/src/pages/botones_page.dart';
 import 'package:app_prac/src/pages/formulario_page.dart';
@@ -18,6 +19,7 @@ Map<String, WidgetBuilder> obtenerRutas() {
     'lugares': (BuildContext context) => LugarPage(),
     'podcast': (BuildContext context) => PodcastPage(),
     'formulario': (BuildContext context) => FormPage(),
-    'formulario_dos': (BuildContext context) => SecondFormPage()
+    'formulario_dos': (BuildContext context) => SecondFormPage(),
+    'apipage': (BuildContext context) => ApiPage()
   };
 }
