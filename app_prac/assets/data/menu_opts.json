@@ -9,7 +9,7 @@
         {
             "rutas" : "billetera",
             "icono" : "account_balance_wallet",
-            "texto" : "Billetera"
+            "texto" : "Billetera" 
         },
         {
             "rutas" : "fotos",
@@ -35,6 +35,11 @@
             "rutas" : "apipage",
             "icono" : "car_rental",
             "texto" : "ApiPage"
+        },
+        {
+            "rutas" : "people",
+            "icono" : "people_add",
+            "texto" : "Api People Random Page"
         }
     ]
 }

@@ -1,4 +1,5 @@
 import 'package:app_prac/src/pages/api_page.dart';
+import 'package:app_prac/src/pages/api_peopleRandom._page.dart';
 import 'package:app_prac/src/pages/billetera_page.dart';
 import 'package:app_prac/src/pages/botones_page.dart';
 import 'package:app_prac/src/pages/formulario_page.dart';
@@ -20,6 +21,7 @@ Map<String, WidgetBuilder> obtenerRutas() {
     'podcast': (BuildContext context) => PodcastPage(),
     'formulario': (BuildContext context) => FormPage(),
     'formulario_dos': (BuildContext context) => SecondFormPage(),
-    'apipage': (BuildContext context) => ApiPage()
+    'apipage': (BuildContext context) => ApiPage(),
+    'people': (BuildContext context) => Api_PeopleRandom()
   };
 }
